@@ -71,18 +71,20 @@ Using dlib, face_recognition library and webcam
         
   If you have problem in this step, you need to cancel line 23 in dlib/tools/python/CMakeLists:
   
-       if (MSVC)
-         #include(${CMAKE_CURRENT_LIST_DIR}/../../dlib/cmake_utils/tell_visual_studio_to_use_static_runtime.cmake)
-       endif()
+        if (MSVC)
+          #include(${CMAKE_CURRENT_LIST_DIR}/../../dlib/cmake_utils/tell_visual_studio_to_use_static_runtime.cmake)
+        endif()
         
   Test your dlib gpu version in your environment by typing these in python command line :
  
-       import dlib
-       print(dlib.DLIB_USE_CUDA)
+        import dlib
+        print(dlib.DLIB_USE_CUDA)
        
   install face_recognition:
+  
         pip install face_recognition
   
   5.Run 
+  
         python data_encode.py
         python face_recognition_webcam.py
