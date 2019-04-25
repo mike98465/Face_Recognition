@@ -20,16 +20,17 @@ Using dlib, face_recognition library and webcam
   * Logitech HD Pro Webcam C920
   
  ## Instructions
- 1.Download and install Anaconda 3:
+ 1. Download and install Anaconda 3:
  https://www.anaconda.com/distribution/
   
- 2.Download and install cuda and cudnn from Nvidia: 
+ 2. Download and install cuda and cudnn from Nvidia: 
  (Remember to add them into the path in your environment variables)
  https://developer.nvidia.com/cuda-downloads?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exelocal
  https://developer.nvidia.com/rdp/cudnn-download
   
- 3.Create virtual environment in Anaconda prompt
- conda create -n pytorch python=3.6 (In my case, I create a pytorch environment)
+ 3. Create virtual environment in Anaconda prompt
+ 
+        conda create -n pytorch python=3.6 (In my case, I create a pytorch environment)
   
  install packages:
         
@@ -44,7 +45,7 @@ Using dlib, face_recognition library and webcam
         print(x)
         torch.cuda.is_available()
   
-  4.Install dlib gpu version and face_recognition
+4. Install dlib gpu version and face_recognition
   (If you download the .whl file and use pip install dlib to install, you only get dlib cpu version) 
   
   First, you should have some tools installed in your computer.
@@ -84,7 +85,9 @@ Using dlib, face_recognition library and webcam
   
         pip install face_recognition
   
-  5.Run 
+5. Run 
   
         python data_encode.py
         python face_recognition_webcam.py
+6. Result:
+        
