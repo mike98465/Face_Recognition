@@ -1,5 +1,5 @@
 # Face recognition based on openCV
-Using dlib, face_recognition library and webcam
+Using dlib, face_recognition library and run on webcam or pi camera
 -----------------------------------------------------------------------
 
 **Reference:** https://github.com/ageitgey/face_recognition
