@@ -32,9 +32,9 @@ Using dlib, face_recognition library and webcam
  conda create -n pytorch python=3.6 (In my case, I create a pytorch environment)
   
  install packages:
- conda install pytorch torchvision cudatoolkit=10.0 -c pytorch 
- conda install opencv
- conda install cmake
+        conda install pytorch torchvision cudatoolkit=10.0 -c pytorch 
+        conda install opencv
+        conda install cmake
   
  Test your pytorch + cuda + cudnn in your environment by typing these in python command line :
  
