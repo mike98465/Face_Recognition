@@ -79,7 +79,7 @@ while True:
     # Display the resulting image
     cv2.imshow('Face_recognition', frame)
 
-    # Hit 'q' on the keyboard to quit!
+    # Hit 'enter' on the keyboard to quit!
     if cv2.waitKey(1) == 13:
         break
 
