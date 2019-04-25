@@ -90,7 +90,7 @@ Using dlib, face_recognition library and webcam
         pip install face_recognition
   
 5. Run 
-   If you want to run on pi camera, you need to run pistream.py on your raspberry pi.
+   (If you want to run on pi camera, you need to run pistream.py on your raspberry pi.)
        
         python data_encode.py
         python face_recognition_webcam.py
