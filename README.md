@@ -56,8 +56,11 @@ Using dlib, face_recognition library and webcam
   https://git-scm.com/
   
   Next, open command line and enter:
+        
         git clone https://github.com/davisking/dlib.git
+  
   install dlib gpu version: 
+  
         cd dlib
         mkdir build
         cd build
