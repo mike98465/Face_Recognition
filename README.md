@@ -94,4 +94,5 @@ Using dlib, face_recognition library and webcam
         python data_encode.py
         python face_recognition_webcam.py
 6. Result:
+        ![](result.png)
         
