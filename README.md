@@ -49,12 +49,16 @@ Using dlib, face_recognition library and webcam
   (If you download the .whl file and use pip install dlib to install, you only get dlib cpu version) 
   
   First, you should have some tools installed in your computer.
+  
   cmake: 
-  https://cmake.org/download/ 
+  
+        https://cmake.org/download/ 
   visual studio 2017:
-  https://docs.microsoft.com/zh-tw/visualstudio/releasenotes/vs2017-relnotes
+  
+        https://docs.microsoft.com/zh-tw/visualstudio/releasenotes/vs2017-relnotes
   git:
-  https://git-scm.com/
+  
+        https://git-scm.com/
   
   Next, open command line and enter:
         
