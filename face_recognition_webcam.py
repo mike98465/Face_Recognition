@@ -7,7 +7,7 @@ import numpy as np
 video_capture = cv2.VideoCapture(0)
 
 # for raspberry pi 3 pi camera
-#video_capture = cv2.VideoCapture('http://192.168.11.50:8000/stream.mjpg')
+#video_capture = cv2.VideoCapture('http://ip:port/stream.mjpg')
 
 # Load face encodings
 with open('dataset_faces.dat', 'rb') as f:
