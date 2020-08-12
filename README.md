@@ -30,20 +30,13 @@ Using dlib, face_recognition library and run on webcam or pi camera
   
  3. Create virtual environment in Anaconda prompt
  
-        conda create -n pytorch python=3.6 (In my case, I create a pytorch environment)
+        conda create -n env python=3.6
+        conda activate env
   
  install packages:
         
-        conda install pytorch torchvision cudatoolkit=10.0 -c pytorch 
         conda install opencv
         conda install cmake
-  
- Test your pytorch + cuda + cudnn in your environment by typing these in python command line :
- 
-        import torch
-        x = torch.rand(5,3)
-        print(x)
-        torch.cuda.is_available()
   
 4. Install dlib gpu version and face_recognition
   (If you download the .whl file and use pip install dlib to install, you only get dlib cpu version) 
